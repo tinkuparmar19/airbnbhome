@@ -1,0 +1,27 @@
+.place {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 70px 10px 0px;
+}
+
+.place_image {
+  width: 70px;
+  height: 70px;
+  border-radius: 7%;
+}
+
+.place_description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.place_name {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.place_distance {
+  margin-top: 5px;
+}

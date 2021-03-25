@@ -1,0 +1,15 @@
+.live {
+  margin: 30px 60px;
+}
+
+.live_category {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 415px) {
+  .live_category {
+    justify-content: center;
+  }
+}

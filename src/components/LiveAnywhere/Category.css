@@ -1,0 +1,27 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10px 20px 10px 0px;
+}
+
+.category_image {
+  width: 250px;
+  height: 260px;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+.category_description {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+@media (max-width: 415px) {
+  .category_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+  }
+}

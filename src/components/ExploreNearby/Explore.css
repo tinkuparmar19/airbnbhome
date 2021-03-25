@@ -1,0 +1,15 @@
+.explore {
+  margin: 50px 60px;
+}
+
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+@media (max-width: 415px) {
+  .places {
+    justify-content: center;
+  }
+}
