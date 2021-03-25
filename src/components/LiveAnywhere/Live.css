@@ -8,8 +8,12 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 930px) {
   .live_category {
     justify-content: center;
+  }
+
+  .heading {
+    text-align: center;
   }
 }

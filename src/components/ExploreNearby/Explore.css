@@ -8,8 +8,12 @@
   margin-top: 20px;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 930px) {
   .places {
     justify-content: center;
+  }
+
+  .heading {
+    text-align: center;
   }
 }
